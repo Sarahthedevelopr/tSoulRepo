@@ -1,0 +1,98 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  background-color: black;
+}
+
+.heading_style{
+  padding: 30px 0;
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-transform:uppercase;
+  font-size: 43px;
+  letter-spacing: 2px;
+  font-weight: 500;
+  color: rgb(252, 250, 248);
+  font-size: 2.5rem;
+  margin-bottom: 30px;
+  text-decoration: underline rgb(29, 15, 233);
+  text-shadow: 5px -2px 6px rgb(37, 5, 247);
+}
+
+.heading_style:hover{
+  text-shadow: 12px 30px 18px -8px rgb(237, 230, 230);
+    transform: scale(1.05, 1.05);
+}
+
+.cards{
+  width: 100%;
+  height: auto;  
+  margin: 30px;
+  }
+
+  
+  .card:hover{
+    box-shadow: 0px 0px 28px 0px rgb(246, 241, 241);
+    transform: scale(1.05, 1.05);
+    }
+
+  .card__img{
+    width: 100%;
+    height: 235px;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+   
+  }
+
+  .card__info{
+    background-color: #fff;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+    padding: 16px 24px 24px 24px;
+    
+  }
+
+  .card__category{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-transform: uppercase;
+    font-size: 13px;
+    letter-spacing: 2px;
+    font-weight: 500;
+    color: #6e6b6b;
+    background-color: #fff;
+    
+  }
+
+  .card__title{
+    margin-top: 5px;
+    margin-bottom: 10px;
+    font-family:  'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #fff;
+    text-transform: capitalize;
+  }
+
+  .card{
+    margin: 20px;
+   
+    transition: all 0.4s cubic-bezier(0.175,0.885,0,1);
+    background-color: rgb(241, 237, 231);
+    width: 21.25%;
+    border-radius: 12px;
+    box-shadow: 0px 13px 10px -7px rgb(126, 126, 126);
+    float: left;
+  }
+
+  
+
+  .button{
+   background-color: rgb(128, 253, 82);
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   border-radius: 9px;
+   padding: 5px 8px;
+   text-transform: uppercase;
+   letter-spacing: 2px;
+   font-weight: 500;
+   border: 3px solid black;
+   cursor: pointer;
+   }
