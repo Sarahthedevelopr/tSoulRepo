@@ -49,7 +49,7 @@ FAT arrow function --->>>
 
 const Choose = () => (
   <>
-  {/* <h1 className="heading_style">Best Netflix Series Of 2020 to 2024</h1>; */}
+  <h1 className="heading_style">Best Netflix Series Of 2020 to 2024</h1>; 
   {(favSeries === 'netflix' ? <Netflix /> : <Amazone />)}  {/* used tarnary oprator */}
   {/*<FavS/>*/ }
 
